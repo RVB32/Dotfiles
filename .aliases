@@ -1,0 +1,7 @@
+alias ll="ls -lah"
+alias .="source"
+alias ..="cd .."
+alias mkdir="mkdir -p"
+#alias update="sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; sudo yum update; sudo yum upgrade"
+#alias sh="ssh root@Richscentos.dhcp.tripadvisor.com"
+#alias minecraft="cd ~/Downloads;export JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home  ;java -jar TechnicLauncher.jar "
