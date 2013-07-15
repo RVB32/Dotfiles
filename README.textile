@@ -1,0 +1,3 @@
+How to install!
+
+@curl -L https://github.com/RVB32/Dotfiles/install.sh | sh@
