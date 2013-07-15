@@ -1,14 +1,14 @@
-echo "Setting up basic zsh shell"
+echo "\033[0;34mSetting up basic zsh shell\033[0m"
 
 
 
-echo "copying zshrc file to home directory"
+echo "\033[0;34mcopying zshrc file to home directory\033[0m"
 cp ~/Dotfiles/.zshrc ~/.zshrc
 
-echo "copying vimrc file to home directory"
+echo "\033[0;34mcopying vimrc file to home directory\033[0m"
 cp ~/Dotfiles/.vimrc ~/.vimrc
 
-echo "copying aliases file to home directory"
+echo "\033[0;34mcopying aliases file to home directory\033[0m"
 cp ~/Dotfiles/.aliases ~/.aliases
 
 echo "\033[0;34mCopying your current PATH and adding it to the end of ~/.zshrc for you.\033[0m"
