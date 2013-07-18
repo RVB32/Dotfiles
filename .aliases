@@ -1,6 +1,7 @@
 alias ll="ls -lah"
 alias .="source"
 alias ..="cd .."
+alias shutdown="shutdown -P now"
 alias mkdir="mkdir -p"
 #alias update="sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; sudo yum update; sudo yum upgrade"
 #alias sh="ssh root@Richscentos.dhcp.tripadvisor.com"
