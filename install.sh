@@ -1,6 +1,4 @@
-echo "\033[0;34mSetting up basic zsh shell\033[0m"
-
-
+echo "\033[0;34mSetting up basic Dot Files\033[0m"
 
 echo "\033[0;34mcopying zshrc file to home directory\033[0m"
 cp ~/Dotfiles/.zshrc ~/.zshrc
@@ -10,6 +8,9 @@ cp ~/Dotfiles/.vimrc ~/.vimrc
 
 echo "\033[0;34mcopying aliases file to home directory\033[0m"
 cp ~/Dotfiles/.aliases ~/.aliases
+
+echo "\033[0;34mcopying zshrc file to home directory\033[0m"
+cp ~/Dotfiles/.gitconfig ~/.gitconfig
 
 echo "\033[0;34mCopying your current PATH and adding it to the end of ~/.zshrc for you.\033[0m"
 echo "export PATH=\$PATH:$PATH" >> ~/.zshrc
