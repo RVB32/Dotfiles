@@ -1,0 +1,15 @@
+[user]
+	name = Richard M. Van Buren
+	email = vanburen.rich@gmail.com
+[core]
+  editor = vim
+[color]
+  ui = auto
+[alias]
+  a = add .
+  aa = add --all .
+  cm = commit -m
+  cb = checkout -b
+  st = status
+[github]
+  user = RVB32
