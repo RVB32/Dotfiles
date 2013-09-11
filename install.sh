@@ -17,20 +17,21 @@ elif [ -f ~/.aliases ] || [ -h ~/.aliases ]
 then
   echo "\033[0;33mFound ~/.aliases.\033[0m \033[0;32mBacking up to ~/.BackUpaliases\033[0m";
   mv ~/.zshrc ~/.BackUpaliases;
+fi
 
 echo "\033[0;34mDone Copying DotFiles\033[0m"
 
 echo "\033[0;34mcopying zshrc file to home directory\033[0m"
-cp ~/Dotfiles/.zshrc ~/.zshrc
+cp ./.zshrc ~/.zshrc
 
 echo "\033[0;34mcopying vimrc file to home directory\033[0m"
-cp ~/Dotfiles/.vimrc ~/.vimrc
+cp ./.vimrc ~/.vimrc
 
 echo "\033[0;34mcopying aliases file to home directory\033[0m"
-cp ~/Dotfiles/.aliases ~/.aliases
+cp ./.aliases ~/.aliases
 
 echo "\033[0;34mcopying zshrc file to home directory\033[0m"
-cp ~/Dotfiles/.gitconfig ~/.gitconfig
+cp ./.gitconfig ~/.gitconfig
 
 echo "\033[0;34mCopying your current PATH and adding it to the end of ~/.zshrc for you.\033[0m"
 echo "export PATH=\$PATH:$PATH" >> ~/.zshrc
@@ -38,5 +39,4 @@ echo "export PATH=\$PATH:$PATH" >> ~/.zshrc
 echo "\033[0;34mTime to change your default shell to zsh!\033[0m"
 chsh -s `which zsh`
 
-/usr/bin/env zsh
 source ~/.zshrc
